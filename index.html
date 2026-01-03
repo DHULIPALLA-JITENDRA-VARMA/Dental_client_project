@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakthi Dental Clinic - Specialized Dental Care for Women & Children</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>Sakthi Dental Clinic</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="treatments.html">Treatments</a></li>
+                <li><a href="faq.html">FAQs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <canvas id="particleCanvas"></canvas>
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+            <h1 class="gradient-text">Specialized Dental Care for Women, Children & Families</h1>
+            <p>Experience compassionate, expert-led dental services tailored to your needs—all in a modern and welcoming environment.</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-primary" id="openAppointmentModal">
+                    <i class="fas fa-calendar-check"></i> Fix an Appointment
+                </a>
+                <a href="contact.html" class="btn btn-secondary">
+                    <i class="fas fa-phone-alt"></i> Emergency Dental Support
+                </a>
+            </div>
+        </div>
+        
+        <!-- Floating elements -->
+        <div class="floating-element float-1"><i class="fas fa-tooth"></i></div>
+        <div class="floating-element float-2"><i class="fas fa-smile"></i></div>
+        <div class="floating-element float-3"><i class="fas fa-teeth"></i></div>
+    </section>
+
+    <!-- Assurance Banner -->
+    <section class="assurance-banner">
+        <div class="banner-content">
+            <p>You are always in safe hands. We are ready to help, anytime.</p>
+        </div>
+    </section>
+
+    <!-- Animated Statistics Section -->
+    <section class="stats-section" data-aos="fade-up">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-users"></i></div>
+                    <div class="stat-number" data-target="5000">0</div>
+                    <div class="stat-label">Happy Patients</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-award"></i></div>
+                    <div class="stat-number" data-target="20">0</div>
+                    <div class="stat-label">Years of Excellence</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-tooth"></i></div>
+                    <div class="stat-number" data-target="15">0</div>
+                    <div class="stat-label">Treatments Offered</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-smile-beam"></i></div>
+                    <div class="stat-number" data-target="98">0</div>
+                    <div class="stat-label">Satisfaction Rate %</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <div class="container">
+            <h2>Why Choose Sakthi Dental Clinic?</h2>
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-clinic-medical"></i>
+                    <h3>All-in-One Care</h3>
+                    <p>From general dentistry to specialized treatments, everything under one roof.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-user-md"></i>
+                    <h3>Experienced Doctors</h3>
+                    <p>Our dentists are professionally trained and committed to personalized patient care.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-heart"></i>
+                    <h3>Patient-Centric Approach</h3>
+                    <p>We prioritize comfort, safety, and transparency in every treatment we offer.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Technology-Driven Services</h3>
+                    <p>Modern tools and equipment ensure precision and safety.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Treatments Section -->
+    <section class="treatments">
+        <div class="container">
+            <h2>Explore Our Services</h2>
+            <div class="treatments-grid">
+                <div class="treatment">
+                    <i class="fas fa-tooth"></i>
+                    <h3>Tooth Extraction</h3>
+                    <p>Safe and painless removal of impacted or decayed teeth.</p>
+                </div>
+                <div class="treatment">
+                    <i class="fas fa-teeth"></i>
+                    <h3>Artificial Complete Denture</h3>
+                    <p>Full mouth replacement to restore confidence and function.</p>
+                </div>
+                <div class="treatment">
+                    <i class="fas fa-fill-drip"></i>
+                    <h3>Tooth Filling</h3>
+                    <p>Composite fillings for cavity treatment and tooth restoration.</p>
+                </div>
+                <div class="treatment">
+                    <i class="fas fa-shower"></i>
+                    <h3>Teeth Cleaning or Scaling</h3>
+                    <p>Preventive care to remove plaque and protect gums.</p>
+                </div>
+                <div class="treatment">
+                    <i class="fas fa-star"></i>
+                    <h3>Bleaching</h3>
+                    <p>Cosmetic whitening treatments for a brighter smile.</p>
+                </div>
+                <div class="treatment">
+                    <i class="fas fa-braces"></i>
+                    <h3>Orthodontic Treatment</h3>
+                    <p>Braces and aligners to straighten and align teeth.</p>
+                </div>
+            </div>
+            <div class="view-all-treatments">
+                <a href="treatments.html" class="btn btn-primary">View Full List of Treatments</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Patients Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <p>“The doctors are extremely kind and attentive. My braces treatment is progressing really well. 5/5.”</p>
+                    <h4>– Manisha M</h4>
+                </div>
+                <div class="testimonial">
+                    <p>“I got my teeth cleaned and whitened here, and the results were amazing. The staff is so humble and professional. I’ve recommended Sakthi Dental Clinic to my entire family.”</p>
+                    <h4>– Mr. Arun Kumar</h4>
+                </div>
+                <div class="testimonial">
+                    <p>“Their attention to detail is outstanding. My daughter needed braces and the entire process from consultation to regular follow ups has been so smooth. Really grateful for their care.”</p>
+                    <h4>– Mrs. Revathi S.</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dental Health Tips Section -->
+    <section class="dental-tips">
+        <div class="container">
+            <h2>Dental Health Tips</h2>
+            <div class="tips-grid">
+                <div class="tip">
+                    <i class="fas fa-brush"></i>
+                    <h3>Brush Properly</h3>
+                    <p>Brush your teeth at least twice a day with fluoride toothpaste for 2 minutes each time.</p>
+                </div>
+                <div class="tip">
+                    <i class="fas fa-floss"></i>
+                    <h3>Floss Daily</h3>
+                    <p>Flossing removes plaque and food particles between teeth that brushing can't reach.</p>
+                </div>
+                <div class="tip">
+                    <i class="fas fa-calendar-check"></i>
+                    <h3>Regular Checkups</h3>
+                    <p>Visit your dentist regularly for cleanings and checkups to prevent problems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doctor Profiles Section -->
+    <section class="doctor-profiles">
+        <div class="container">
+            <h2>Meet Our Specialists</h2>
+            <div class="doctors-grid">
+                <div class="doctor">
+                    <div class="doctor-image">
+                        <i class="fas fa-user-md fa-3x"></i>
+                    </div>
+                    <h3>Dr. Anupriya</h3>
+                    <p>Founder & Dentist</p>
+                    <p>20+ years of experience</p>
+                </div>
+                <div class="doctor">
+                    <div class="doctor-image">
+                        <i class="fas fa-user-md fa-3x"></i>
+                    </div>
+                    <h3>Dr. Ananya Iyer</h3>
+                    <p>Prosthodontist</p>
+                    <p>Specialist in dental prosthetics</p>
+                </div>
+                <div class="doctor">
+                    <div class="doctor-image">
+                        <i class="fas fa-user-md fa-3x"></i>
+                    </div>
+                    <h3>Dr. Meera Subramanian</h3>
+                    <p>Endodontist</p>
+                    <p>Root canal specialist</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clinic Highlights Section -->
+    <section class="clinic-highlights">
+        <div class="container">
+            <h2>Clinic Facilities</h2>
+            <div class="highlights">
+                <div class="highlight">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Convenient central location</h3>
+                </div>
+                <div class="highlight">
+                    <i class="fas fa-parking"></i>
+                    <h3>Hassle-free parking</h3>
+                </div>
+                <div class="highlight">
+                    <i class="fas fa-clock"></i>
+                    <h3>Doctors available daily (9 AM – 9 PM)</h3>
+                </div>
+                <div class="highlight">
+                    <i class="fas fa-wheelchair"></i>
+                    <h3>Wheelchair access</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> B2/8, SBM Layout, Anthivadi, Hosur, Tamil Nadu 635109, India</p>
+                    <p><i class="fas fa-envelope"></i> info@sakthidentalclinic.in</p>
+                    <p><i class="fas fa-phone"></i> +91 9862890897/ +91 9363298118</p>
+                    <p><i class="fas fa-clock"></i> Sunday to Saturday: 9am to 8pm</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="treatments.html">Treatments</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Our Treatments</h3>
+                    <ul>
+                        <li><a href="#">Teeth Cleaning & Scaling</a></li>
+                        <li><a href="#">Tooth Filling</a></li>
+                        <li><a href="#">Tooth Extraction</a></li>
+                        <li><a href="#">Artificial Complete Denture</a></li>
+                        <li><a href="#">Dental Implants</a></li>
+                        <li><a href="#">Laser Dentistry</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sakthi Dental Clinic. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Live Chat Widget -->
+    <div class="chat-widget">
+        <div class="chat-button" id="chatButton">
+            <i class="fas fa-comment"></i>
+            <span>Chat with us</span>
+        </div>
+        <div class="chat-box" id="chatBox">
+            <div class="chat-header">
+                <h3>Sakthi Dental Clinic</h3>
+                <span class="close-chat" id="closeChat">&times;</span>
+            </div>
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot-message">
+                    Hello! Welcome to Sakthi Dental Clinic. How can I help you today?
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="messageInput" placeholder="Type your message...">
+                <button id="sendMessage">Send</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Booking Modal -->
+    <div id="appointmentModal" class="modal">
+        <div class="modal-content" data-aos="zoom-in">
+            <span class="close-modal">&times;</span>
+            <h2><i class="fas fa-calendar-check"></i> Book Your Appointment</h2>
+            <p class="modal-subtitle">Fill in the form below and we'll get back to you within 24 hours</p>
+            <form id="appointmentForm" class="appointment-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fullName"><i class="fas fa-user"></i> Full Name *</label>
+                        <input type="text" id="fullName" name="fullName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email"><i class="fas fa-envelope"></i> Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phone"><i class="fas fa-phone"></i> Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="appointmentDate"><i class="fas fa-calendar"></i> Preferred Date *</label>
+                        <input type="date" id="appointmentDate" name="appointmentDate" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="appointmentTime"><i class="fas fa-clock"></i> Preferred Time *</label>
+                        <select id="appointmentTime" name="appointmentTime" required>
+                            <option value="">Select a time</option>
+                            <option value="9:00 AM">9:00 AM</option>
+                            <option value="10:00 AM">10:00 AM</option>
+                            <option value="11:00 AM">11:00 AM</option>
+                            <option value="12:00 PM">12:00 PM</option>
+                            <option value="2:00 PM">2:00 PM</option>
+                            <option value="3:00 PM">3:00 PM</option>
+                            <option value="4:00 PM">4:00 PM</option>
+                            <option value="5:00 PM">5:00 PM</option>
+                            <option value="6:00 PM">6:00 PM</option>
+                            <option value="7:00 PM">7:00 PM</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="treatmentType"><i class="fas fa-tooth"></i> Treatment Type</label>
+                        <select id="treatmentType" name="treatmentType">
+                            <option value="">Select treatment</option>
+                            <option value="General Checkup">General Checkup</option>
+                            <option value="Teeth Cleaning">Teeth Cleaning</option>
+                            <option value="Tooth Filling">Tooth Filling</option>
+                            <option value="Root Canal">Root Canal</option>
+                            <option value="Teeth Whitening">Teeth Whitening</option>
+                            <option value="Orthodontics">Orthodontics</option>
+                            <option value="Dental Implants">Dental Implants</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message"><i class="fas fa-comment"></i> Additional Notes</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Tell us about your dental concerns..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">
+                    <i class="fas fa-paper-plane"></i> Submit Appointment Request
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Success Message Toast -->
+    <div id="successToast" class="toast">
+        <i class="fas fa-check-circle"></i>
+        <span>Appointment request submitted successfully!</span>
+    </div>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true,
+            offset: 100
+        });
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
